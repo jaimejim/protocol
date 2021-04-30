@@ -626,11 +626,11 @@ class Main():
                     sys.exit(0)
                 
                 # Display included protocols
-                 elif argv[i]=="-l" or argv[i]=="--list":
-                     for spec in specs.protocols.keys():
-                         print(spec, "", end="")
-                     print()
-                     sys.exit(0)
+                elif argv[i]=="-l" or argv[i]=="--list":
+                    for spec in specs.protocols.keys():
+                        print(spec, "", end="")
+                    print()
+                    sys.exit(0)
                 
                 # Incorrect option supplied
                 elif argv[i].startswith("-"):
