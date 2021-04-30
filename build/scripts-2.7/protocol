@@ -628,8 +628,7 @@ class Main():
                 # Display included protocols
                 elif argv[i]=="-l" or argv[i]=="--list":
                     for spec in specs.protocols.keys():
-                        print(spec, "", end="")
-                    print()
+                         print(spec)
                     sys.exit(0)
                 
                 # Incorrect option supplied
