@@ -1,4 +1,4 @@
-Original by <https://github.com/luismartingarcia>
+This repository is just a fork, original by <https://github.com/luismartingarcia>
 
 ## INTRODUCTION
 
